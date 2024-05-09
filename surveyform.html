@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="surveyform.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>GeeksforGeeks Survey Form</h1>
+    <form>
+        <label>Name</label><br>
+        <input type="text" placeholder="Enter your name" id="data"><br><br>
+        <label>Email</label><br>
+        <input type="text" placeholder="Enter your email" id="data"><br><br>
+        <label>Age</label><br>
+        <input type="text" placeholder="Enter your age" id="data"><br><br>
+        <label>Which option best describes you?</label><br>
+        <select id="data">
+            <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+        </select><br><br>
+        <label>Would you recommend GeeksforGeeks?</label><br>
+        <input type="radio">Yes<br>
+        <input type="radio">No<br>
+        <input type="radio">Maybe<br><br>
+        <label>Language and framework knows</label><br>
+        <input type="checkbox">C<br>
+        <input type="checkbox">C++<br>
+        <input type="checkbox">C#<br>
+        <input type="checkbox">Java<br>
+        <input type="checkbox">Javascript<br>
+        <input type="checkbox">Python<br>
+        <input type="checkbox">React<br><br>
+        <label>Any comments or suggestions</label><br>
+        <textarea id="area"></textarea><br>
+        <input type="submit" class="sub" value="Submit">
+    </form>
+</body>
+</html>
